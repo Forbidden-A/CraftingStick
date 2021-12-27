@@ -10,7 +10,7 @@ plugins {
     alias(libs.plugins.fabric.loom)
 }
 
-group      = "dev.forb"
+group      = "dev.forb.craftingstick"
 version    = "1.0-SNAPSHOT"
 
 repositories {

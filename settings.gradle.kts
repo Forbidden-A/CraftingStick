@@ -1,4 +1,4 @@
-rootProject.name = "fabric-kotlin-template"
+rootProject.name = "CraftingStick"
 
 pluginManagement {
     repositories {

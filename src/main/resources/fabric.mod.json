@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "crafting_stick",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Crafting Stick",
+  "description": "This mod adds a portable crafting table on a stick.",
   "authors": [
     "Forbidden-A"
   ],
   "contact": {
-    "homepage": "https://github.com/Forbidden-A/fabric-kotlin-template",
-    "sources": "https://github.com/Forbidden-A/fabric-kotlin-template"
+    "homepage": "https://github.com/Forbidden-A/CraftingStick",
+    "sources": "https://github.com/Forbidden-A/CraftingStick"
   },
 
   "license": "LGPLv3",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/crafting_stick/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      {
-        "adapter": "kotlin",
-        "value": "dev.forb.example.ExampleMod"
-      }
+      "dev.forb.craftingstick.CraftingStick::init"
+    ],
+    "client": [
+      "dev.forb.craftingstick.CraftingStick::clientInit"
     ]
   },
   "depends": {
