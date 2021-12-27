@@ -23,6 +23,9 @@
       "dev.forb.craftingstick.CraftingStick::clientInit"
     ]
   },
+  "mixins": [
+    "crafting_stick.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.12.12",
     "fabric": "*",
